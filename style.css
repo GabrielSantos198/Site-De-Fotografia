@@ -6,11 +6,30 @@
     box-sizing: border-box;
 }
 
+.biografia{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.biografia article{
+    max-width: 87%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.biografia p{
+    font-size: 20px;,
+    text-align: center;
+}
 
 .principal{
     background-color: #F0F8FF;
 }
 
+.nav-bar-pc{
+    display: none;
+}
 
 header{
     overflow: hidden;
@@ -236,16 +255,36 @@ footer form p .butao{
 
 @media (min-width: 768px){
 
-    header .icons{
-        padding: 20px;
+    .nav-bar-m{
+        display: none;
     }
 
+    .nav-bar-pc{
+        display: block;
+    }
 
-    header .icons a{
+    .nav-bar-pc .icons{
+        padding:20px;
+    }
+
+    .nav-bar-pc .icons a{
         font-size: 45px;
-        padding: 12px;
+        padding: 18px;
+
     }
 
+    .nav-bar-pc nav{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -40px;
+        padding-right: 18px;
+    }
+
+    .nav-bar-pc nav a{
+        font-size: 30px;
+        padding: 10px;
+        color: #000;
+    }
 
     main p{
         font-size: 50px;
