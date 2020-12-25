@@ -225,7 +225,7 @@ footer form p .butao{
 }
 
 
-@media (max-width: 1200px) and (orientation: landscape){
+@media screen and (min-width: 200px) and (orientation: landscape) {
     header nav ul{
         padding-top: 20px;
     }
