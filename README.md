@@ -1,4 +1,4 @@
 # Photography Site
-Photography simple Site. The technologies used in Development were HTML and CSS (FRONTEND). To make the form work I made use of Formspree.
+The technologies used in the development of this website were HTML and CSS. Click on the following link to access it
 
 [Access The Website](https://gabrielsantos198.github.io/Site-De-Fotografia/)
